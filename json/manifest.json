@@ -1,0 +1,48 @@
+{
+	"manifest_version":2,
+	"name": "BlakeIrv",
+	"version": "1.1",
+
+	"description": "This addon replaces images with pictures of Blake Irving. WAOW",
+	
+	"applications":{
+		"gecko":{
+			"id":"jid1-R4K9NQmQx8Ciug@jetpack"
+		}
+	},
+	"icons": {
+		"128": "images/icon-128.png",
+		"64": "images/icon-64.png",
+		"32": "images/icon-32.png",
+		"16": "images/icon-16.png"
+	},
+	"content_scripts":[
+		{
+			"matches":["<all_urls>"],
+			"js":["blakeify.js"]
+		}
+	],
+	"homepage_url": "https://github.com/flaydpepper/blakedaddon/",
+	"web_accessible_resources":[
+		"images/blake0.jpg",
+		"images/blake1.jpg",
+		"images/blake2.jpg",
+		"images/blake3.jpg",
+		"images/blake4.jpg",
+		"images/blake5.jpg",
+		"images/blake6.jpg",
+		"images/blake7.jpg",
+		"images/blake8.jpg",
+		"images/blake9.jpg",
+		"images/blake10.jpg",
+		"images/blake11.jpg",
+		"images/blake12.jpg",
+		"images/blake13.jpg",
+		"images/blake14.jpg",
+		"images/blake15.jpg",
+		"images/blake16.jpg",
+		"images/blake17.jpg",
+		"images/blake18.jpg",
+		"images/blake19.jpg"
+	]
+}
